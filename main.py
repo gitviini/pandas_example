@@ -40,13 +40,14 @@ while True:
                     case 1:
                         data[name].append(input('new data:'))
                     case 2:
-                        tam = number(tam, len(data[name]))
                         name = input('new column:')
                         data[name] = []
                     case 3:
                         for datas in data:
+                            tam = number(tam, len(data[datas])) 
+                        for datas in data:
                             while len(data[datas]) < tam:
-                                data[datas].append(' ')
+                                data[datas].append('-')
                         break
                     case _:
                         print('inválido')        
