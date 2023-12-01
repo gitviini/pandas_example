@@ -1,6 +1,6 @@
 # PANDAS
 
-Simple project made with pandas.
+Simple project made with <font color='#789'>pandas</font>.
 
 <img src='pandas.png' width='100%'>
 
